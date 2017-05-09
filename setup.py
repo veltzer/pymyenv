@@ -6,9 +6,9 @@ if not sys.version_info[0] == 3:
 
 setuptools.setup(
     name='pymyenv',
-    version='0.0.1',
-    description='pymyenv is a module to help you switch virtualenvs easily',
-    long_description='pymyenv is a module to help you switch virtualenvs easily',
+    version='0.0.2',
+    description='pymyenv is a module to help you switch virtualenv easily',
+    long_description='pymyenv is a module to help you switch virtualenv easily',
     url='https://veltzer.github.io/pymyenv',
     author='Mark Veltzer',
     author_email='mark.veltzer@gmail.com',
