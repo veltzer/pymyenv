@@ -1,1 +1,2 @@
-This is to make 'python setup.py sdist' happy...
+# pymyenv
+Module to help you switch virtual environments easily
