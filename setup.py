@@ -5,7 +5,7 @@ setuptools.setup(
     version='0.0.3',
     description='pymyenv is a module to help you switch virtualenv easily',
     long_description='pymyenv is a module to help you switch virtualenv easily',
-    url='https://github.com/veltzer/pymyenv',
+    url='https://veltzer.github.io/pymyenv',
     download_url='https://github.com/veltzer/pymyenv',
     author='Mark Veltzer',
     author_email='mark.veltzer@gmail.com',
