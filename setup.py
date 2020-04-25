@@ -1,32 +1,50 @@
 import setuptools
 
+"""
+The documentation can be found at:
+http://setuptools.readthedocs.io/en/latest/setuptools.html
+"""
 setuptools.setup(
+    # the first three fields are a must according to the documentation
     name='pymyenv',
     version='0.0.3',
-    description='pymyenv is a module to help you switch virtualenv easily',
-    long_description='pymyenv is a module to help you switch virtualenv easily',
-    url='https://veltzer.github.io/pymyenv',
-    download_url='https://github.com/veltzer/pymyenv',
+    packages=[
+        'pymyenv',
+        'pymyenv.endpoints',
+    ],
+    # from here all is optional
+    description='pymyenv manages environments for you',
+    long_description='pymyenv manages environments for you',
     author='Mark Veltzer',
     author_email='mark.veltzer@gmail.com',
     maintainer='Mark Veltzer',
     maintainer_email='mark.veltzer@gmail.com',
+    keywords=[
+        'pipenv',
+        'pip',
+        'virtualenv',
+    ],
+    url='https://veltzer.github.io/pymyenv',
+    download_url='https://github.com/veltzer/pymyenv',
     license='MIT',
-    platforms=['python3'],
-    classifiers=[
-        'Development Status :: 3 - Alpha',
-        'Intended Audience :: Developers',
-        'Programming Language :: Python :: 3',
+    platforms=[
+        'python3',
     ],
-    keywords='python virtualenv pip',
-    packages=setuptools.find_packages(),
     install_requires=[
-        'click',  # for command line parsing
-        'pyfakeuse'  # for fake use of variables
+        'pytconf',
+        'pylogconf',
     ],
-    entry_points={
-        'console_scripts': [
-            # 'pymyenv_foo=pymyenv.scripts.foo:main',
-        ],
-    },
+    classifiers=[
+        'Development Status :: 4 - Beta',
+        'Environment :: Console',
+        'Operating System :: OS Independent',
+        'Programming Language :: Python',
+        'Topic :: Utilities',
+    ],
+    data_files=[
+    ],
+    entry_points={'console_scripts': [
+        'pymyenv=pymyenv.endpoints.main:main',
+    ]},
+    python_requires='>=3.4',
 )

@@ -1,2 +1,5 @@
-# pymyenv
-Module to help you switch virtual environments easily
+=======================
+*pymyenv* project by Mark Veltzer
+=======================
+
+version: (0, 0, 3)
