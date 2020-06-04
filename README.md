@@ -9,3 +9,5 @@
 
 pymyenv manages environments for you
 
+project website: https://veltzer.github.io/pymyenv
+
