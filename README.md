@@ -6,6 +6,10 @@
 ![GitHub](https://img.shields.io/github/license/veltzer/pymyenv)
 ![PyPI](https://img.shields.io/pypi/v/pymyenv)
 ![PyPI - Format](https://img.shields.io/pypi/format/pymyenv)
+[![Downloads](https://pepy.tech/badge/pytsv)](https://pepy.tech/project/pymyenv)
+[![Downloads](https://pepy.tech/badge/pytsv/month)](https://pepy.tech/project/pymyenv/month)
+[![Downloads](https://pepy.tech/badge/pytsv/week)](https://pepy.tech/project/pymyenv/week)
+
 
 pymyenv manages environments for you
 
