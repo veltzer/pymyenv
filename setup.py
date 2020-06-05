@@ -2,27 +2,28 @@ import setuptools
 
 setuptools.setup(
     # the first three fields are a must according to the documentation
-    name='pymyenv',
-    version='0.0.5',
+    name="pymyenv",
+    version="0.0.5",
     packages=[
         'pymyenv',
         'pymyenv.endpoints',
     ],
     # from here all is optional
-    description='pymyenv manages environments for you',
-    long_description='pymyenv manages environments for you',
-    author='Mark Veltzer',
-    author_email='mark.veltzer@gmail.com',
-    maintainer='Mark Veltzer',
-    maintainer_email='mark.veltzer@gmail.com',
+    description="pymyenv manages environments for you",
+    long_description="pymyenv manages environments for you",
+    long_description_content_type="text/x-rst",
+    author="Mark Veltzer",
+    author_email="mark.veltzer@gmail.com",
+    maintainer="Mark Veltzer",
+    maintainer_email="mark.veltzer@gmail.com",
     keywords=[
         'pipenv',
         'pip',
         'virtualenv',
     ],
-    url='https://veltzer.github.io/pymyenv',
-    download_url='https://github.com/veltzer/pymyenv',
-    license='MIT',
+    url="https://veltzer.github.io/pymyenv",
+    download_url="https://github.com/veltzer/pymyenv",
+    license="MIT",
     platforms=[
         'python3',
     ],
@@ -41,8 +42,8 @@ setuptools.setup(
     ],
     data_files=[
     ],
-    entry_points={'console_scripts': [
+    entry_points={"console_scripts": [
         'pymyenv=pymyenv.endpoints.main:main',
     ]},
-    python_requires='>=3.5',
+    python_requires=">=3.5",
 )
