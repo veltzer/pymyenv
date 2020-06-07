@@ -29,7 +29,7 @@ setuptools.setup(
     ],
     url="https://veltzer.github.io/pymyenv",
     download_url="https://github.com/veltzer/pymyenv",
-    # license="MIT",
+    license="MIT",
     platforms=[
         'python3',
     ],
