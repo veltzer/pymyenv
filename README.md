@@ -2,14 +2,20 @@
 
 # *pymyenv* project by Mark Veltzer
 
-![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)
-![GitHub](https://img.shields.io/github/license/veltzer/pymyenv)
-![PyPI](https://img.shields.io/pypi/v/pymyenv)
+![PyPI - Status](https://img.shields.io/pypi/status/pymyenv)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pymyenv)
+![PyPI - License](https://img.shields.io/pypi/l/pymyenv)
+![PyPI - Package Name](https://img.shields.io/pypi/v/pymyenv)
 ![PyPI - Format](https://img.shields.io/pypi/format/pymyenv)
-[![Downloads](https://pepy.tech/badge/pytsv)](https://pepy.tech/project/pymyenv)
-[![Downloads](https://pepy.tech/badge/pytsv/month)](https://pepy.tech/project/pymyenv/month)
-[![Downloads](https://pepy.tech/badge/pytsv/week)](https://pepy.tech/project/pymyenv/week)
 
+![PyPI - Downloads](https://img.shields.io/pypi/dd/pymyenv)
+![PyPI - Downloads](https://img.shields.io/pypi/dw/pymyenv)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/pymyenv)
+
+![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)
+![Downloads](https://pepy.tech/badge/pymyenv)
+![Downloads](https://pepy.tech/badge/pymyenv/month)
+![Downloads](https://pepy.tech/badge/pymyenv/week)
 
 pymyenv manages environments for you
 
