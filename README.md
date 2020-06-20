@@ -1,5 +1,4 @@
 
-
 # *pymyenv* project by Mark Veltzer
 
 ![PyPI - Status](https://img.shields.io/pypi/status/pymyenv)
@@ -17,7 +16,7 @@
 ![Downloads](https://pepy.tech/badge/pymyenv/month)
 ![Downloads](https://pepy.tech/badge/pymyenv/week)
 
+
 pymyenv manages environments for you
 
-project website: https://veltzer.github.io/pymyenv
-
+project website: <https://veltzer.github.io/pymyenv>
