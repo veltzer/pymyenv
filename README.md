@@ -17,8 +17,11 @@
 ![Downloads](https://pepy.tech/badge/pymyenv/week)
 
 
+
 pymyenv manages environments for you
 
 project website: <https://veltzer.github.io/pymyenv>
+
+chat with me at [![gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/veltzer/mark.veltzer)
 
 
