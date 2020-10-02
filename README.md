@@ -16,6 +16,8 @@
 ![Downloads](https://pepy.tech/badge/pymyenv/month)
 ![Downloads](https://pepy.tech/badge/pymyenv/week)
 
+[![Known Vulnerabilities](https://snyk.io/test/github/veltzer/pymyenv/badge.svg?targetFile=requirements.txt)](https://snyk.io/test/github/veltzer/pymyenv?targetFile=requirements.txt)
+
 
 
 pymyenv manages environments for you
