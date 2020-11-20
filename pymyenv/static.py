@@ -2,3 +2,4 @@
 VERSION_STR = "0.0.7"
 DESCRIPTION = "pymyenv manages environments for you"
 APP_NAME = "pymyenv"
+LOGGER_NAME = "pymyenv"
