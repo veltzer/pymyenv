@@ -12,7 +12,6 @@ setuptools.setup(
     version="0.0.7",
     packages=[
         'pymyenv',
-        'pymyenv.endpoints',
     ],
     # from here all is optional
     description="pymyenv manages environments for you",
@@ -55,7 +54,7 @@ setuptools.setup(
     data_files=[
     ],
     entry_points={"console_scripts": [
-        'pymyenv=pymyenv.endpoints.main:main',
+        'pymyenv=pymyenv.main:main',
     ]},
     python_requires=">=3.6",
 )
