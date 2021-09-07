@@ -14,7 +14,6 @@
 ![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)
 
 ![build](https://github.com/veltzer/pymyenv/workflows/build/badge.svg)
-
 pymyenv manages environments for you
 
 project website: https://veltzer.github.io/pymyenv
