@@ -15,7 +15,6 @@ install_requires: List[str] = [
     "pylogconf",
 ]
 make_requires: List[str] = [
-    "pyclassifiers",
     "pymakehelper",
     "pydmt",
 ]
