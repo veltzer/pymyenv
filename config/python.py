@@ -1,8 +1,8 @@
 """ python deps for this project """
 
-console_scripts: list[str] = [
-    "pymyenv=pymyenv.main:main",
-]
+scripts: dict[str,str] = {
+    "pymyenv": "pymyenv.main:main",
+}
 
 config_requires: list[str] = [
     "pyclassifiers",
