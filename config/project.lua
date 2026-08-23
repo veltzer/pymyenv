@@ -5,3 +5,4 @@ KEYWORDS = {
     "pip",
     "virtualenv",
 }
+PYPI = true
